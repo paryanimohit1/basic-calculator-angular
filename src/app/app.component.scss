@@ -1,0 +1,48 @@
+$alignment : center;
+$controlBackground: #def5f9;
+$controlBorder: 2px solid gray;
+
+:host {
+    background: #60ccd0;
+    height: 100%;
+    display: block;
+    padding: 10px;
+}
+.button{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: 5px;
+    border: $controlBorder;
+    border-radius: 17px;
+    background: $controlBackground;
+}
+
+.button:hover{
+    background: #c6e8f1;
+}
+
+.inputControl {
+    border: $controlBorder;
+    padding: 5px;
+    background: $controlBackground;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.header{
+    text-align: $alignment;
+}
+.calculator {
+    text-align: $alignment;
+}
+
+.errorMessage {
+    text-align: $alignment;
+    color: rgb(228, 36, 36);
+}
+
+.finalResult {
+    text-align: $alignment;
+    color: rgb(40, 43, 46);
+}
